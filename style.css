@@ -1,0 +1,22 @@
+﻿
+div.text-box {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0);
+    color:white;
+    font-family: "Aldrich";
+}
+input.input-box {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-family: "Aldrich";
+}
+button.button {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-family: "Aldrich";
+}
