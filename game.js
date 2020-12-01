@@ -12,4 +12,13 @@ function screen2() {
     ClearScreen();
     Output(`Welcome ${Username}`);
     ImageInsert("Mars-Test-image", "100px", "100px");
+    Button("Next Page", "screen3()")
+
 }
+function screen3() {
+    ClearScreen()
+    var x = choice123([1, 2, 3]);
+    Output(x)
+}
+
+screen1()
