@@ -2,7 +2,7 @@ console.log("vars.js loaded")
 
 var variables = {
     suplies : {
-        food: 0,
+        food: 938,
         water: 0,
         wastewater: 0,
         oxygen: 1000,
@@ -37,8 +37,8 @@ var variables = {
         player5 : "Player5"
     },
     costs : {
-        money : 10000,
-        food : 5,
+        money : 100,
+        food : 100,
         water : 0.1,
         fuel : 3,
         spairparts:{
@@ -53,3 +53,6 @@ var variables = {
         choices : ["y", "n", "yes", "no"]
     }
 }
+
+
+console.log(variables)
