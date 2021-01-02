@@ -16,7 +16,16 @@ function screen2() {
 }
 function screen3() {
     ClearScreen()
-    console.log(ChoiceYN());
+    var result;
+    window.MyInputReader = new InputListener(Input("Input test 1:"));
+    Button("Enter...", "window.MyInputReader.getData()");
+    var searching = setInterval(function () {
+        if (window.MyInputReader.data != "") {
+            clearInterval(searching);
+        }
+    }, 10);
+    result = window.MyInputReader.data;
+    Output(result);
 }
 
-screen1()
+screen3();
