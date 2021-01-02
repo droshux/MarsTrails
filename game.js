@@ -12,4 +12,20 @@ function screen2() {
     ClearScreen();
     Output(`Welcome ${Username}`);
     ImageInsert("Mars-Test-image", "100px", "100px");
+    Button("Next Page", "screen3()")
 }
+function screen3() {
+    ClearScreen()
+    var result;
+    window.MyInputReader = new InputListener(Input("Input test 1:"));
+    Button("Enter...", "window.MyInputReader.getData()");
+    var searching = setInterval(function () {
+        if (window.MyInputReader.data != "") {
+            clearInterval(searching);
+        }
+    }, 10);
+    result = window.MyInputReader.data;
+    Output(result);
+}
+
+screen3();

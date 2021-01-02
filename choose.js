@@ -28,13 +28,12 @@ function choiceyn(variables){
     console.log(variables.choosing.choice)
     
 }
-function choice123(variables){
-    console.log("")
-    variables.choosing.choices = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-    console.log("variables.choosing.choices: " + variables.choosing.choices);
-    inputID = Input("Please enter a number from 1 to 9:")
-    variables.choosing.choice = Submit(inputID)
-    console.log(variables.choosing.choice)
+function choice123(options){
+    inputID = Input(`Pick from: ${options}`);
+    var out;
+    Button("Submit", "out=Submit(inputID)")
+    while (!(out in options)) {}
+    return out;
 }
 
 function choosenumber(variables) {
