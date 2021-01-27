@@ -31,12 +31,12 @@ function choice123(variables){
     console.log("")
     variables.choosing.choices = [1, 2, 3, 4, 5, 6, 7, 8, 9]
     console.log("variables.choosing.choices: " + variables.choosing.choices)
-    variables.choosing.choice = prompt("Number from 1 to somthing like 9");
+    variables.choosing.choice = parseInt(prompt("Number from 1 to somthing like 9"));
     console.log(variables.choosing.choice)
 }
 
 function choosenumber(variables){
     console.log("Choose amount: ")
-    variables.choosing.choice = 23///parseInt(prompt("Choose amount"));
-    console.log(toString(variables.choosing.choice))
+    variables.choosing.choice = parseInt(prompt("Choose amount"));
+    console.log(variables.choosing.choice);
 }

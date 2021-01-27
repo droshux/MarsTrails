@@ -37,7 +37,7 @@ var variables = {
         player5 : "Player5"
     },
     costs : {
-        money : 100,
+        money : 1000,
         food : 100,
         water : 0.1,
         fuel : 3,
@@ -50,7 +50,7 @@ var variables = {
     choosing : {
         choice : 0,
         choiceyn : "n",
-        choices : ["y", "n", "yes", "no"]
+        choices : ["y", "n", "yes", "no"],
     }
 }
 

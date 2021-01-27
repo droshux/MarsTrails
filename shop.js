@@ -34,8 +34,8 @@ function Foodbuy(variables){
     console.log("Food variables.costs $"+ variables.costs.food +" per kg,")
     console.log("")
     choosenumber(variables)
-    variables.suplies.food += variables.choosing.choicenumber
-    variables.costs.money -= (variables.choosing.choicenumber * variables.costs.food)
+    variables.suplies.food += variables.choosing.choice
+    variables.costs.money -= (variables.choosing.choice * variables.costs.food)
     console.log("Food:" + variables.suplies.food + "   Money:" + variables.costs.money)
     //listprint(variables)
 }
@@ -46,8 +46,8 @@ function Waterbuy(variables){
     console.log("water variables.costs $"+ variables.costs.food +" per kg,")
     console.log("")
     choosenumber(variables)
-    variables.suplies.water += variables.choosing.choicenumber
-    variables.costs.money -= (variables.choosing.choicenumber * variables.costs.water)
+    variables.suplies.water += variables.choosing.choice
+    variables.costs.money -= (variables.choosing.choice * variables.costs.water)
     console.log("Water:" + variables.suplies.food + "   Money:" + variables.costs.money)
     //listprint(variables)
 }
@@ -70,8 +70,8 @@ function Solarspair(variables){
     console.log("Solar panels:")
     console.log("spair solar pannels cost $" + variables.costs.spairparts.solars)
     choosenumber(variables)
-    variables.suplies.spareparts.solarpannel += variables.choosing.choicenumber
-    variables.costs.money -= (variables.choosing.choicenumber * variables.costs.spairparts.solars)
+    variables.suplies.spareparts.solarpannel += variables.choosing.choice
+    variables.costs.money -= (variables.choosing.choice * variables.costs.spairparts.solars)
     console.log("Spair solar panels:" + variables.suplies.food + "   Money:" + variables.costs.money)
     //listprint(variables)
 }
@@ -81,8 +81,8 @@ function waterfilterspair(variables){
     console.log("Water filters:")
     console.log("spair water filters cost $" + variables.costs.spairparts.waterfilter)
     choosenumber(variables)
-    variables.suplies.spareparts.waterfiltration += variables.choosing.choicenumber
-    variables.costs.money -= (variables.choosing.choicenumber * variables.costs.spairparts.waterfilter)
+    variables.suplies.spareparts.waterfiltration += variables.choosing.choice
+    variables.costs.money -= (variables.choosing.choice * variables.costs.spairparts.waterfilter)
     console.log("Spair waterfilterers:" + variables.suplies.spareparts.waterfiltration + "   Money:" + variables.costs.money)
     //listprint(variables)
 }
@@ -92,8 +92,8 @@ function airscruberspair(variables){
     console.log("Air scrubers:")
     console.log("spair air scrubers cost $" + variables.costs.spairparts.airscruber)
     choosenumber(variables)
-    variables.suplies.spareparts.airscruber += variables.choosing.choicenumber
-    variables.costs.money -= (variables.choosing.choicenumber * variables.costs.spairparts.airscruber)
+    variables.suplies.spareparts.airscruber += variables.choosing.choice
+    variables.costs.money -= (variables.choosing.choice * variables.costs.spairparts.airscruber)
     console.log("Spair air scrubers:" + variables.suplies.spareparts.airscruber + "   Money:" + variables.costs.money)
     //listprint(variables)
 }
